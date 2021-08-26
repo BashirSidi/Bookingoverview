@@ -1,0 +1,39 @@
+.body{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  height: 78vh;
+  padding: 15px;
+}
+
+.body-left{
+  overflow: scroll;
+  flex-basis: 14%;
+  background: white;
+  border-radius: 5px;
+}
+
+.body-left::-webkit-scrollbar {
+    width: 0px;
+}
+
+
+.body-left::scrollbar {
+    width: 0 !important
+} 
+
+/* .body-left::-webkit-scrollbar {
+    width: 0em;
+}
+ 
+ 
+.body-left::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+} */
+
+.body-right{
+  flex-basis: 83%;
+  background: thistle;
+  border-radius: 5px;
+}

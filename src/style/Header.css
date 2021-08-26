@@ -1,0 +1,52 @@
+
+img{
+  height: 50px;
+  width: 50px;
+  margin-left: 15px;
+}
+.custom-input{
+  border-radius: 5px 0 0 5px;
+  margin-left: 70px;
+  width: 350px;
+  padding: 10px;
+  font-size: 10px;
+}
+
+.search-btn{
+border-radius: 0 5px 5px 0;
+border: none;
+background: #932EFF;
+font-size: 12px;
+width: 100px;
+}
+
+.search-btn:hover{
+  color: #F8F9FA;
+  background: #932EFF;
+}
+
+
+#dropdown-menu-align-end{
+  margin-right: 20px;
+  color: rgb(71, 69, 69);
+  font-size: 12px;
+  border: none;
+  background: #F8F9FA;
+  margin-top: 17px; 
+}
+
+#nav_pic{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-left: 5px;
+  padding: 0;
+}
+
+.badge-icon{
+  margin-top: -4px;
+  color: black;
+}
+
+
+
