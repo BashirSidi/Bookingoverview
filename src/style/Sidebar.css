@@ -19,6 +19,29 @@
   display: flex;
   align-items: center;
   list-style: none;
+  font-weight: 700;
+  color: rgb(92, 92, 92);
+  font-size: 18px;
+}
+
+.sidebar-item-light {
+  transition: all .3s;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-weight: 700;
+  color: rgb(92, 92, 92);
+  font-size: 18px;
+}
+
+.sidebar-item-dark {
+  transition: all .3s;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-weight: 700;
+  color: white;
+  font-size: 18px;
 }
 
 .sidebar-item:hover{
@@ -45,14 +68,18 @@
 
 .item > div:first-child {
   margin-right: 10px;
-  font-size: 13px;
+  font-size: 20spx;
 }
 
 .item > div:last-child {
   font-size: 13px;
 }
 
-img{
-  align-self: center;
-  margin: 10px 10px;
+
+
+.sidebar-image {
+  margin-right: 30px;
+  /* margin: 10px 0px; */
+  width: 90px;
+  height: 90px;
 }

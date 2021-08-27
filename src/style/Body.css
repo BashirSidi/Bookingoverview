@@ -6,17 +6,38 @@
   padding: 15px;
 }
 
-.body-left{
+.body-left-light{
   overflow: scroll;
   flex-basis: 14%;
   background: white;
   border-radius: 5px;
 }
 
-.body-left::-webkit-scrollbar {
+.body-left-dark {
+  overflow: scroll;
+  flex-basis: 14%;
+  background: #1A202C;
+  color: white;
+  border-radius: 5px;
+}
+
+.body-left-light::-webkit-scrollbar {
     width: 0px;
 }
 
+.body-left-dark::-webkit-scrollbar {
+  width: 0px;
+}
+
+.body-left-light::-webkit-scrollbar-track {
+  box-shadow: none;
+  border-radius: none;
+}
+
+.body-left-dark::-webkit-scrollbar-track {
+  box-shadow: none;
+  border-radius: none;
+}
 
 .body-left::scrollbar {
     width: 0 !important
@@ -34,6 +55,5 @@
 
 .body-right{
   flex-basis: 83%;
-  background: thistle;
   border-radius: 5px;
 }

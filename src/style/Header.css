@@ -1,3 +1,10 @@
+.header-dark {
+  background-color: #1A202C;
+}
+
+.header-light {
+  background-color: #ffffff;
+}
 
 img{
   height: 50px;
@@ -26,13 +33,22 @@ width: 100px;
 }
 
 
-#dropdown-menu-align-end{
+#dropdown-menu-align-end-light{
   margin-right: 20px;
   color: rgb(71, 69, 69);
   font-size: 12px;
   border: none;
   background: #F8F9FA;
   margin-top: 17px; 
+}
+
+#dropdown-menu-align-end-dark {
+  margin-right: 20px;
+  color: #fff;
+  font-size: 12px;
+  border: none;
+  background: #1A202C;
+  margin-top: 17px;
 }
 
 #nav_pic{
@@ -43,10 +59,14 @@ width: 100px;
   padding: 0;
 }
 
-.badge-icon{
+.badge-icon-light{
   margin-top: -4px;
   color: black;
 }
 
+.badge-icon-dark {
+  margin-top: -4px;
+  color: #fff;
+}
 
 

@@ -1,4 +1,117 @@
 .bookingsideheader{
  display: flex;
- margin-top: 5px;
+ justify-content: space-between;
+ align-items: center;
+ margin-top: 20px;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+}
+
+.booking-side > h1 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.Dropdown-arrow {
+    top: 16px;
+}
+
+.Dropdown-control {
+    padding: 6px 30px 6px 10px;
+    font-size: 14px;
+}
+
+.input-container {
+    width: 300px;
+    position: relative;
+    border-radius: 2px;
+    margin-left: 2px;
+    color: #ccc;
+}
+
+.input {
+    width: 100%;
+    padding: 4.5px 30px 4.5px 5px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 13px;
+}
+
+.spoon-icon {
+    background-color: #ffffff;
+    margin-left: 7px;
+    padding: 3px 6px;
+    color: #932eff;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    font-size: 17px;
+}
+
+.header-right > div:nth-child(1) {
+    background-color: #ffffff;
+    margin-left: 7px;
+    padding: 3px 6px;
+    border-radius: 2px;
+    color: black;
+}
+
+.header-right>div:nth-child(2) {
+    background-color: rgb(224, 222, 222);
+    color: #000;
+    padding: 3px 6px;
+    border-radius: 2px;
+}
+
+.header-right > div:nth-child(3) {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    margin-left: 5px;
+    padding: 6px;
+    font-size: 13px;
+    color: black;
+}
+
+.header-right > div:nth-child(3) > .Dropdown-root > .Dropdown-control {
+    padding: 0 30px 0 10px;
+    border: none;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.header-right>div:nth-child(3) > .Dropdown-root > .Dropdown-control > .Dropdown-arrow-wrapper > .Dropdown-arrow {
+    top: 9px;
+}
+
+.header-right>div:nth-child(4) {
+    background-color: #ffffff;
+    margin-left: 20px;
+    padding: 3px 6px;
+    border-radius: 2px;
+    color: black;
+}
+
+.header-right>div:nth-child(5) {
+    background-color: #ffffff;
+    margin-left: 20px;
+    padding: 3px 6px;
+    border-radius: 2px;
+    color: black;
 }
